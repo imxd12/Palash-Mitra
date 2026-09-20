@@ -1,0 +1,18 @@
+{
+  "short_name": "PalashMitra",
+  "name": "PALASH MITRA - AI Vernacular Pedagogy Platform",
+  "description": "Offline-First AI Operating System for Multilingual Classrooms (Government of Jharkhand)",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='36' fill='%231B4D3E'/><text x='50%' y='65%' font-size='110' text-anchor='middle'>🌺</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F8FAFC",
+  "theme_color": "#1B4D3E",
+  "display": "standalone",
+  "orientation": "any"
+}

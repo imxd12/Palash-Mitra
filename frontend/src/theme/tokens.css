@@ -1,0 +1,119 @@
+/* PALASH MITRA Design System Tokens (Government of Jharkhand EdTech) */
+
+/* Pure Light Theme (Default) */
+:root, [data-theme="light"] {
+  /* Brand Palette */
+  --color-primary: #1B4D3E;          /* Jharkhand Forest Green */
+  --color-primary-dark: #13392E;
+  --color-primary-light: #2A6C58;
+  --color-primary-subtle: #E8F3EE;
+
+  --color-accent: #E65100;           /* Palash Flower Flame Orange */
+  --color-accent-light: #F97316;
+  --color-accent-subtle: #FFF3E0;
+
+  --color-secondary: #D97706;        /* Warm Ochre Gold */
+  --color-secondary-subtle: #FEF3C7;
+
+  /* Neutrals: Pure Light */
+  --color-bg: #F8FAFC;
+  --color-surface: #FFFFFF;
+  --color-surface-hover: #F1F5F9;
+  --color-border: #E2E8F0;
+  --color-border-hover: #CBD5E1;
+  --color-border-focus: #1B4D3E;
+
+  --color-text: #0F172A;
+  --color-text-muted: #64748B;
+  --color-text-light: #94A3B8;
+
+  /* Status Colors */
+  --color-online: #10B981;
+  --color-online-bg: #ECFDF5;
+  --color-offline: #F59E0B;
+  --color-offline-bg: #FFFBEB;
+  --color-sync: #0EA5E9;
+  --color-sync-bg: #F0F9FF;
+  --color-error: #EF4444;
+  --color-error-bg: #FEF2F2;
+
+  /* Header & Cards */
+  --header-bg: #FFFFFF;
+  --card-bg: #FFFFFF;
+  --modal-bg: #FFFFFF;
+  --input-bg: #FFFFFF;
+  --pill-bg: #F1F5F9;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-glow: 0 0 20px rgba(230, 81, 0, 0.35);
+}
+
+/* Pure Black Theme (High Contrast, OLED Optimized) */
+[data-theme="dark"] {
+  /* Brand Palette (Vibrant on pitch black) */
+  --color-primary: #34D399;          /* Emerald Green Accent */
+  --color-primary-dark: #10B981;
+  --color-primary-light: #6EE7B7;
+  --color-primary-subtle: #064E3B;
+
+  --color-accent: #FB923C;           /* Bright Saffron Flame */
+  --color-accent-light: #FDBA74;
+  --color-accent-subtle: #7C2D12;
+
+  --color-secondary: #FBBF24;        /* Golden Ochre */
+  --color-secondary-subtle: #78350F;
+
+  /* Neutrals: Pure Black / Deep OLED */
+  --color-bg: #000000;
+  --color-surface: #0A0F1D;
+  --color-surface-hover: #151D2E;
+  --color-border: #1E293B;
+  --color-border-hover: #334155;
+  --color-border-focus: #34D399;
+
+  --color-text: #F8FAFC;
+  --color-text-muted: #94A3B8;
+  --color-text-light: #64748B;
+
+  /* Status Colors */
+  --color-online: #34D399;
+  --color-online-bg: #064E3B;
+  --color-offline: #FBBF24;
+  --color-offline-bg: #451A03;
+  --color-sync: #38BDF8;
+  --color-sync-bg: #082F49;
+  --color-error: #F87171;
+  --color-error-bg: #450A0A;
+
+  /* Header & Cards */
+  --header-bg: #000000;
+  --card-bg: #0A0F1D;
+  --modal-bg: #0A0F1D;
+  --input-bg: #111827;
+  --pill-bg: #1E293B;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.6);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.7);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.8);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.9);
+  --shadow-glow: 0 0 25px rgba(251, 146, 60, 0.4);
+}
+
+/* Global Typography & Transitions */
+:root {
+  --font-main: 'Inter', 'Noto Sans Devanagari', sans-serif;
+  --font-olchiki: 'Noto Sans Ol Chiki', 'Inter', sans-serif;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
